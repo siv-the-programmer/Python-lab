@@ -1,4 +1,7 @@
-# In python variables are used to store dat that can be refrenced and manipulated during program execution
+#-----------------------------------------------------------------------------------------
+# VARIABLES WITH PYTHON
+#-----------------------------------------------------------------------
+# In python variables are used to store values that can be refrenced and manipulated during program execution
 # A variable is essentially a name that is assigned to a values
 
 name = "David" # This is the word David stored inside the variable <name>
@@ -14,3 +17,104 @@ print(age)  # We are printing the data stored in the variable <age>  Which is 28
 
 # David
 # 28
+
+
+#---------------------------------------------------------------------------
+
+# Rules for naming variables
+# Variable names can only contain letters, digits and underscores
+# A variable name cannot start with a digit
+# Variables are case sensitive
+
+
+#------------------------------------------------------------------
+# Variables in Python are assigned values using the = operator.
+
+x = 5
+y = 3.14
+z = "HI" # The = sign assigns the value to the variable
+
+
+#------------------------------------------------------------
+# Dynamic Typing
+#--------------------------------------------------------------
+# Python Variables are dynamically typed
+# This means the same variable can hold different types of values during execution
+# Example:
+x = 10
+x = "Ten"
+# X no longer holds the value 10 but the string "Ten"
+# If we print it out it will look like
+print(x)
+# The output would be:
+# Ten instead of 10
+
+# if we want to print out both we need to print the first variable before we assign the new value to the second variable
+# Example : 
+x = 10
+print(x)
+x = "Ten"
+print(x)
+
+# The output would look like : 
+# 10
+# Ten
+
+
+#-------------------------------------------
+# Multiple Assignments
+#-------------------------------------------
+# Python allows multiple variables to be assigned values in a single line
+
+a = b = c = 100
+print(a, b, c)
+# Output would look like:
+# 100 100 100 
+
+
+#--------------------------------------------------------
+# Assigning Different Values
+#--------------------------------------------------------
+# We can assigne different values to multiple variables simultaneously 
+# This makes the code concise and easier to read
+
+x, y, z = 3, 1.4, "Python" # x, = 3 | y, = 1.4 | z = "Python"
+print(x, y, z) # This will then print out all those values
+# The output would look like this: 
+# 3 1.4 Python
+
+
+#------------------------------------------------------------------
+# Type Casting a Variable
+#------------------------------------------------------------------
+# Type casting refers to the process of converting the value of-
+# one data type into another
+
+# Basic Castin Functions
+# int()
+# float()
+# str()
+# Example: 
+
+str_ing = "10" # This is a string or is initially a string
+new_string_to_int = int(str_ing) # This converts the string "10" into an interger 10
+
+in_t = 5 # this is a normal interger in the variable in_t
+int_to_float = float(in_t) # This turns the interger 5 into a float 0.5
+
+age = 25 
+age_tostring = str(age)
+print(str_ing)
+print(int_to_float)
+print(age_tostring)
+
+# The output would look like : 
+# 10
+# 5.0
+# 25
+
+#-----------------------------------------------------------------------------
+# Getting the Type of Variable
+#-----------------------------------------------------------------------------
+# In python we can determine the type of variable using the type() function.
+# This returns the type of object passed to it
