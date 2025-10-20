@@ -15,9 +15,11 @@ print(age)  # We are printing the data stored in the variable <age>  Which is 28
 
 # Output should look like :
 
+"""
 # David
 # 28
 
+"""
 
 #---------------------------------------------------------------------------
 
@@ -47,7 +49,10 @@ x = "Ten"
 # If we print it out it will look like
 print(x)
 # The output would be:
-# Ten instead of 10
+"""
+Ten instead of 10
+
+"""
 
 # if we want to print out both we need to print the first variable before we assign the new value to the second variable
 # Example : 
@@ -56,9 +61,12 @@ print(x)
 x = "Ten"
 print(x)
 
-# The output would look like : 
-# 10
-# Ten
+# The output would look like :
+""" 
+10
+Ten
+
+"""
 
 
 #-------------------------------------------
@@ -69,7 +77,10 @@ print(x)
 a = b = c = 100
 print(a, b, c)
 # Output would look like:
-# 100 100 100 
+"""
+100 100 100 
+
+"""
 
 
 #--------------------------------------------------------
@@ -81,7 +92,10 @@ print(a, b, c)
 x, y, z = 3, 1.4, "Python" # x, = 3 | y, = 1.4 | z = "Python"
 print(x, y, z) # This will then print out all those values
 # The output would look like this: 
-# 3 1.4 Python
+"""
+3 1.4 Python
+
+"""
 
 
 #------------------------------------------------------------------
@@ -109,10 +123,12 @@ print(int_to_float)
 print(age_tostring)
 
 # The output would look like : 
-# 10
-# 5.0
-# 25
+"""
+10
+5.0
+25
 
+"""
 #-----------------------------------------------------------------------------
 # Getting the Type of Variable
 #-----------------------------------------------------------------------------
