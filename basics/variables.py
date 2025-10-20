@@ -119,3 +119,23 @@ print(age_tostring)
 # In python we can determine the type of variable using the type() function.
 # This returns the type of object passed to it
 
+
+a = 5
+b = "hello"
+c = "0.5"
+d = True
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+
+# Output will look like 
+"""
+<class 'int'>
+<class 'str'>
+<class 'str'>
+<class 'bool'> 
+    
+    
+"""
