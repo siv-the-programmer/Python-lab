@@ -200,4 +200,14 @@ print(tup1[-3])
 
 """
 
+# If you try to modify a tuple you will get an error
+# Example output : 
+"""
+
+  File "<string>", line 2, in <module>
+TypeError: 'tuple' object does not support item assignment
+
+
+"""
+
 #---------------Boolean Data Type-------------
