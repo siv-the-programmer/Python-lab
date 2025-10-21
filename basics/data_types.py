@@ -94,7 +94,7 @@ s
 
 """
 
-#----------LIST-DATA-TYPE----------------
+#---------------LIST-DATA-TYPE----------------
 
 """
 Lists are similar to arrays found in other languages. 
@@ -127,7 +127,7 @@ print(list_val)
 """
 
 
-#-----------------Access List Items-----------------
+#------------- Access List Items-----------------
 """
 In order to access the list items refer to index number. 
 In Python, negative sequence indexes represent positions from end of the array. 
