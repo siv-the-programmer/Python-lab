@@ -10,7 +10,7 @@ print("Lets learn Data Types with Python")
 
 
 """
-The following are starndard or built in data types in Python:
+The following are standard or built in data types in Python:
 --------------------------------------------------------------
     Numeric: int, float, complex
     Sequence Type: string, list, tuple
@@ -36,3 +36,40 @@ print(x) # This will print the most recent data type which is the tuple
 ('python', 'for', 'aws')
     
 """
+
+# Numeric Data Types 
+
+# python numbers represent data that has a numeric value
+# A numeric value can be an integer , a floating number or even a complex number
+# These values are defined as int, float and complex classes
+"""
+Integers: value is represented by int class. It contains positive or negative whole numbers (without fractions or decimals). 
+There is no limit to how long an integer value can be.
+
+Float: value is represented by float class. 
+It is a real number with a floating-point representation. 
+It is specified by a decimal point. 
+
+Complex Numbers: It is represented by a complex class. 
+It is specified as (real part) + (imaginary part)j.
+For example - 2+3j
+
+
+"""
+a = 5
+print(type(a))
+
+b = 5.0
+print(type(b))
+
+c = 2 +3j
+print(type(c))
+
+# The output will look like: 
+"""
+<class 'int'>
+<class 'float'>
+<class 'complex'>
+    
+"""
+
