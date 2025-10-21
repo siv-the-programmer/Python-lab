@@ -111,10 +111,10 @@ print(x, y, z) # This will then print out all those values
 # Example: 
 
 str_ing = "10" # This is a string or is initially a string
-new_string_to_int = int(str_ing) # This converts the string "10" into an interger 10
+new_string_to_int = int(str_ing) # This converts the string "10" into an integer 10
 
-in_t = 5 # this is a normal interger in the variable in_t
-int_to_float = float(in_t) # This turns the interger 5 into a float 0.5
+in_t = 5 # this is a normal integer in the variable in_t
+int_to_float = float(in_t) # This turns the integer 5 into a float 0.5
 
 age = 25 
 age_tostring = str(age)
