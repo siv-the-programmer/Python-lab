@@ -125,3 +125,79 @@ print(list_val)
 ['byte', 'gb', 1, 4, 5]
 
 """
+
+
+#-----------------Access List Items-----------------
+"""
+In order to access the list items refer to index number. 
+In Python, negative sequence indexes represent positions from end of the array. 
+Negative indexing means beginning from end
+-1 refers to last item, -2 refers to second-last item, etc.
+"""
+
+a = ["python", 'ubuntu', 'bios']
+print("Getting element from the list")
+print(a[0]) # This will get the first index in the list
+print(a[2]) # This will grab the second index in the list
+
+print("Accessing using negative indexing")
+print(a[-1]) # using -1 will grab the last index in the list
+print(a[-3]) # This will grab the third index from the back
+
+# The output would look like : 
+"""
+Getting element from the list
+python
+bios
+Accessing using negative indexing
+bios
+python
+"""
+
+
+#-----------------Tuple Data Type-------------------
+"""
+Tuple is an ordered collection of Python objects. 
+The only difference between a tuple and a list is that tuples are immutable. 
+Tuples cannot be modified after it is created.
+
+In Python, tuples are created by placing a sequence of values separated by
+a comma with or without the use of parentheses for grouping data sequence.
+
+"""
+
+# Create an empty tuple
+tup1 = ()
+
+tup2 = ("python", "Html")
+print("This is a tuple with the use of a string", tup2)
+
+# This would output: 
+"""
+This is a tuple with the use of a string ('python', 'Html')
+
+"""
+
+#------------------------Access Tuple Items-----------
+"""
+In order to access tuple items refer to the index number. 
+Use the index operator [ ] to access an item in a tuple
+
+"""
+
+tup1 = (1, 2, 3, 4, 5)
+
+# Access the tuple items using the index
+print(tup1[0])
+print(tup1[-1])
+print(tup1[-3])
+
+# The output would look like : 
+"""
+1
+5
+3
+
+"""
+
+#------------------Boolean Data Type-------------
