@@ -36,4 +36,3 @@ print(x) # This will print the most recent data type which is the tuple
 ('python', 'for', 'aws')
     
 """
-# 
