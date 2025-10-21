@@ -73,3 +73,55 @@ print(type(c))
     
 """
 
+wel = "Welcome to Python data types"
+print(wel)
+
+# check data type
+print(type(wel))
+
+# access string with index (0, 1, 2, 3,)
+print(wel[1]) # prints the second index or letter 
+print(wel[2]) # prints the third index
+print(wel[-1]) # -1 would start from the last letter from the back
+
+# The output would look like: 
+"""
+Welcome to Python data types
+<class 'str'>
+e
+l
+s
+
+"""
+
+#----------LIST-DATA-TYPE----------------
+
+"""
+Lists are similar to arrays found in other languages. 
+They are an ordered and mutable collection of items. 
+It is very flexible as items in a list do not need to be of the same type.
+
+Creating a List in Python
+
+Lists in Python can be created by just
+placing the sequence inside the square brackets[].
+"""
+#---------------LIST-EXAMPLE------------------
+
+# Empty list 
+list = []
+
+# List with int values
+list_int = [1, 2, 3]
+print(list_int)
+
+# list with mixed values int and string
+list_val = ["byte", "gb", 1, 4, 5]
+print(list_val)
+
+# The output would look like : 
+"""
+[1, 2, 3]
+['byte', 'gb', 1, 4, 5]
+
+"""
