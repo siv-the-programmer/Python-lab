@@ -80,9 +80,9 @@ print(wel)
 print(type(wel))
 
 # access string with index (0, 1, 2, 3,)
-print(wel[1]) # prints the second index or letter 
+print(wel[1]) # prints the second index
 print(wel[2]) # prints the third index
-print(wel[-1]) # -1 would start from the last letter from the back
+print(wel[-1]) # -1 would start with the last index from the back
 
 # The output would look like: 
 """
