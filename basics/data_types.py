@@ -138,7 +138,7 @@ Negative indexing means beginning from end
 a = ["python", 'ubuntu', 'bios']
 print("Getting element from the list")
 print(a[0]) # This will get the first index in the list
-print(a[2]) # This will grab the second index in the list
+print(a[2]) # This will grab the third index in the list
 
 print("Accessing using negative indexing")
 print(a[-1]) # using -1 will grab the last index in the list
