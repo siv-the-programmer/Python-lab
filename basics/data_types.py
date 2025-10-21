@@ -1,7 +1,7 @@
 print("Lets learn Data Types with Python")
-#--------------------------------------------------------------
+#-------------------------------------------------
 # Data Types with Python
-#-------------------------------------------------------------
+#-------------------------------------------------
 
 # Data types in python are a way to classify data items
 # They represent the kind of value, which determines what operations can be performed on the data
@@ -11,7 +11,7 @@ print("Lets learn Data Types with Python")
 
 """
 The following are standard or built in data types in Python:
---------------------------------------------------------------
+---------------------------------------------------
     Numeric: int, float, complex
     Sequence Type: string, list, tuple
     Mapping Type: dict
@@ -155,7 +155,7 @@ python
 """
 
 
-#-----------------Tuple Data Type-------------------
+#--------------Tuple Data Type-------------------
 """
 Tuple is an ordered collection of Python objects. 
 The only difference between a tuple and a list is that tuples are immutable. 
@@ -178,7 +178,7 @@ This is a tuple with the use of a string ('python', 'Html')
 
 """
 
-#------------------------Access Tuple Items-----------
+#--------------Access Tuple Items-----------
 """
 In order to access tuple items refer to the index number. 
 Use the index operator [ ] to access an item in a tuple
@@ -200,4 +200,4 @@ print(tup1[-3])
 
 """
 
-#------------------Boolean Data Type-------------
+#---------------Boolean Data Type-------------
