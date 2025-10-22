@@ -202,7 +202,83 @@ print(tup1[-3])
 
 #------------------Boolean Data Type-------------
 
-print("Lets learn Boolean Data Types")
-print("-----------------------------\n")
+# Python Boolean Data type is one of the two built-in values, True or False. 
+# Boolean objects that are equal to True are truthy (true) and those equal to False are falsy (false). 
+# However non-Boolean objects can be evaluated in a Boolean context as well and determined to be true or false. It is denoted by class
 
-# What is Boolean?: 
+print(type(True))
+print(type(False))
+
+# The output would look like: 
+"""
+<class 'bool'>
+<class 'bool'>
+
+"""
+#----------------Truthy and Falsy Values--------
+
+# In Python, truthy and falsy values are values that evaluate to True or False in a Boolean context. 
+# Truthy values behave like True, while falsy values behave like False when used in conditions.
+# Will look more into this topic as I progress
+
+if 1: 
+    print("1 is truthy")
+if not 0:
+    print("0 is falsy")
+
+# Output would look like : 
+"""
+1 is truthy
+0 is falsy
+"""
+
+#--------------Set Data Type-------------------
+
+# In Python Data Types, set is an unordered collection of data types that is iterable, mutable and has no duplicate elements.
+# The order of the elements in a set is undefined though it may consist of various elements.
+
+#--------------Create a set in Python----------
+
+# Sets can be created by using the built-in set() function
+# with an iterable object or sequence by placing the sequence inside curly braces, seperated by a comma.
+# The type of elements in a set need not be the same, various mixed-up data type values can also be passed to the set.
+
+s1 = set()
+
+s1 = set("setdatatype")
+print("set with the use of a string", s1)
+
+s2 = set(["set", "data", "data"])
+print("set with the use of a list", s2)
+
+# Access set items
+
+# Set items cannot be accesed by reffering to an index since sets are unordered the items have no index
+# But we can loop through the set items using a for loop, 
+# Or ask if a specified value is in a present set, by using the keyword in.
+
+set1 = set(["set", "data", "data"])
+# Duplicates are removed automaically
+print(set1)
+
+# Loop through set
+
+for i in set1:
+    print(i, end=" ") # Prints elements 1 by 1
+    
+    # check if item exists in a set
+    print("data" in set1)
+    
+# Output would look like: 
+"""
+{'set', 'data'}
+set True
+data True
+
+"""
+
+#-----------------Dictionary type data-------------
+
+
+
+
