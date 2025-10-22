@@ -1,7 +1,7 @@
 print("Lets learn Data Types with Python")
-#--------------------------------------------------------------
+#-------------------------------------------------
 # Data Types with Python
-#-------------------------------------------------------------
+#-------------------------------------------------
 
 # Data types in python are a way to classify data items
 # They represent the kind of value, which determines what operations can be performed on the data
@@ -11,7 +11,7 @@ print("Lets learn Data Types with Python")
 
 """
 The following are standard or built in data types in Python:
---------------------------------------------------------------
+---------------------------------------------------
     Numeric: int, float, complex
     Sequence Type: string, list, tuple
     Mapping Type: dict
@@ -80,9 +80,9 @@ print(wel)
 print(type(wel))
 
 # access string with index (0, 1, 2, 3,)
-print(wel[1]) # prints the second index or letter 
+print(wel[1]) # prints the second index
 print(wel[2]) # prints the third index
-print(wel[-1]) # -1 would start from the last letter from the back
+print(wel[-1]) # -1 would start with the last index from the back
 
 # The output would look like: 
 """
@@ -94,7 +94,7 @@ s
 
 """
 
-#----------LIST-DATA-TYPE----------------
+#---------------LIST-DATA-TYPE----------------
 
 """
 Lists are similar to arrays found in other languages. 
@@ -127,7 +127,7 @@ print(list_val)
 """
 
 
-#-----------------Access List Items-----------------
+#------------- Access List Items-----------------
 """
 In order to access the list items refer to index number. 
 In Python, negative sequence indexes represent positions from end of the array. 
@@ -138,7 +138,7 @@ Negative indexing means beginning from end
 a = ["python", 'ubuntu', 'bios']
 print("Getting element from the list")
 print(a[0]) # This will get the first index in the list
-print(a[2]) # This will grab the second index in the list
+print(a[2]) # This will grab the third index in the list
 
 print("Accessing using negative indexing")
 print(a[-1]) # using -1 will grab the last index in the list
@@ -155,7 +155,7 @@ python
 """
 
 
-#-----------------Tuple Data Type-------------------
+#--------------Tuple Data Type-------------------
 """
 Tuple is an ordered collection of Python objects. 
 The only difference between a tuple and a list is that tuples are immutable. 
@@ -178,7 +178,7 @@ This is a tuple with the use of a string ('python', 'Html')
 
 """
 
-#------------------------Access Tuple Items-----------
+#--------------Access Tuple Items-----------
 """
 In order to access tuple items refer to the index number. 
 Use the index operator [ ] to access an item in a tuple
@@ -204,3 +204,4 @@ print(tup1[-3])
 
 print("Lets learn Boolean Data Types")
 print("-----------------------------\n")
+
