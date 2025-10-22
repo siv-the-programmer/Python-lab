@@ -109,7 +109,7 @@ placing the sequence inside the square brackets[].
 #---------------LIST-EXAMPLE------------------
 
 # Empty list 
-list = []
+li_st = []
 
 # List with int values
 list_int = [1, 2, 3]
@@ -257,7 +257,7 @@ print("set with the use of a list", s2)
 # But we can loop through the set items using a for loop, 
 # Or ask if a specified value is in a present set, by using the keyword in.
 
-set1 = set(["set", "data", "data"])
+set1 = set(["python", "data", "data"])
 # Duplicates are removed automaically
 print(set1)
 
@@ -271,7 +271,7 @@ for i in set1:
     
 # Output would look like: 
 """
-{'set', 'data'}
+{'python', 'data'}
 set True
 data True
 
