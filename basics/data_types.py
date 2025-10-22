@@ -279,6 +279,39 @@ data True
 
 #-----------------Dictionary type data-------------
 
+# A dictionary in Python is a collection of data values used to store data values like a map,
+# Unlike other python data types, a dictionary holds a key: value pair.
+# key value is provided in a dictionary to make it more optimized.
+# Each key-value pair in a dictionary is seperated by a colon:
+# whereas each key is separated by a comma
+
+#---------------Create a Dictionary in Python-------
+
+# Values in a dictionary can be of any datatype and can be duplicated,
+# Whereas keys cant be repeated and must be immutable
+# The dictionary can also be created by the built-in function dict()
+# Dictionary keys are key sensitive
+
+d = {}
+
+d = {1: "Dict", 2:"in", 3:"Python"}
+print(d)
+
+# Creating dictionary using dict() constructor
+
+d1 = dict({1: "python", 2: "is", 3:"great"})
+print(d1)
+
+#------------Accessing Key-value in Dictionary---
+
+# In order to access items from a dictionary, refer to its key name
+# key can be used inside the squre breackets using get() method we can access dictionary elements
+
+d = {1: "bash", "name": "Python", 3: "nodejs"}
+print(d["name"])
+
+print(d.get(3))
+
 
 
 
