@@ -202,3 +202,5 @@ print(tup1[-3])
 
 #------------------Boolean Data Type-------------
 
+print("Lets learn Boolean Data Types")
+print("-----------------------------\n")
