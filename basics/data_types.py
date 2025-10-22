@@ -248,7 +248,7 @@ s1 = set()
 s1 = set("setdatatype")
 print("set with the use of a string", s1)
 
-s2 = set(["set", "data", "data"])
+s2 = set(["python", "data", "data"])
 print("set with the use of a list", s2)
 
 # Access set items
@@ -271,8 +271,7 @@ for i in set1:
     
 # Output would look like: 
 """
-{'python', 'data'}
-set True
+{'python', 'data'}
 data True
 
 """
