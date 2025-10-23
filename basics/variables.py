@@ -155,3 +155,52 @@ print(type(d))
     
     
 """
+
+#---------------------User input using variables-----------
+
+# In Order to get user input we have to assign the input() function.
+
+nam = input("\nWhat is your name: ")
+print(nam)
+
+fav_food = input("\nWhat is your favourite food ")
+print(fav_food)
+
+# You may add your own name and fav food, I just used david and pizza as an example
+
+# Output would look like: 
+"""
+What is your name: david
+david
+
+What is your favourite food: pizza
+pizza
+
+"""
+
+#------------------------Input sentences------------------
+# We can also print out sentences like we would with a variable
+# We use an f string for cleaner code
+
+nam1 = input("\nWhat is your dogs name?: ")
+print(f"I can't believe your dogs name is {nam1}") # We can use an f string for cleaner code
+
+nam2 = input("\nWhere do you live?: ")
+print(f"Oh you live in {nam2} I have no idea where that is")
+
+# The output would look like this
+"""
+What is your dogs name?: Linux
+I can't believe your dogs name is Linux
+
+Where do you live?: Planet Python
+Oh you live in Planet Python I have no idea where that is
+
+"""
+
+# We can modify this with if statements, However we will get to that in the conditionals.py file
+
+
+
+
+
