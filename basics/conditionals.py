@@ -82,9 +82,21 @@ if light_on == "on": # if the user types "on" meaning the light is on we will pr
     print(True)
 elif light_on == "off": # if the user types "off" meaning the light is off we will print the Bool False
     print(False)
-    
 
+"""
+---------------------------
+    Nested if statement Example
+---------------------------
+Nested if statements are Conditional statements can be nested within other conditional statements to handle more complex logic
+"""
 
-
-    
+age = 25 # This is the age that we gave ourself or it can be the age of the user
+has_license = True # The user has a license therefore we put the Bool True. If the user has no license we can change this to the Bool False
+if age >= 18: # If the user age is greater than or equals to 18
+    if has_license: # Nested if statement meaning if the user has a license even if under 18 or over then it will print/do the following: 
+        print("You are old enough to drive and have a license.") # This is if we set the age over 18 and the has license set to the Bool True
+    else:
+        print("You are old enough to drive but need a license.") # This is if the user is over 18 but has the License set to False
+else:
+    print("You are not old enough to drive.") # If the user is under 18 it will print this and not ask if the user has license
     
