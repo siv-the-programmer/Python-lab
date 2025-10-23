@@ -198,7 +198,8 @@ Oh you live in Planet Python I have no idea where that is
 
 """
 
-# We can modify this with if statements, However we will get to that in the conditionals.py file
+# We can modify this with if statements, However we will get to that in the conditionals.py file and mini projects folder
+
 
 
 
