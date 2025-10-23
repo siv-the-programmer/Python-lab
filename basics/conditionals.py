@@ -1,12 +1,8 @@
 """----------Conditionals with Python---------
 
 # What are conditionals?
-
 # Conditionals in Python are statements that allow a program to make decisions and execute different blocks of code based on whether a specified condition is True or False.
 # They are fundamental for controlling the flow of a program and enabling it to respond dynamically to various inputs or situations.
-
-# Conditionals:
-
 # if 
 # elif
 # else
@@ -32,7 +28,6 @@ if age >= "18":
     print("You are allowed to vote")
 else:
     print("Please come back when you are 18 or over") 
-
 """
 ---------------------------
     elif : if else
@@ -70,7 +65,6 @@ elif names == "mary" or names == "Mary": # if the name is mary or Mary
     print(f"You have Access {m}") # We will print you have Access Mary
 else:
     print("Access Denied") # If none of the names match the names shown above we will then print out Access Denied
-    
 """
 ---------------------------
     Example using Boolean
@@ -82,14 +76,12 @@ if light_on == "on": # if the user types "on" meaning the light is on we will pr
     print(True)
 elif light_on == "off": # if the user types "off" meaning the light is off we will print the Bool False
     print(False)
-
 """
 ---------------------------
     Nested if statement Example
 ---------------------------
 Nested if statements are Conditional statements can be nested within other conditional statements to handle more complex logic
 """
-
 age = 25 # This is the age that we gave ourself or it can be the age of the user
 has_license = True # The user has a license therefore we put the Bool True. If the user has no license we can change this to the Bool False
 if age >= 18: # If the user age is greater than or equals to 18
