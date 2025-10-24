@@ -70,7 +70,22 @@ exit? yes
 goodbye
 """
 """ 
--------------
+---------------
     EXAMPLE 3
--------------
+---------------
+"""
+while True: # This wraps the code in a loop
+    print("Press a 1 to loop and 2 to exit") # Print the question on the screen for the user
+    press = input("> ") # Input the user or ask the user to type the number of the above screen
+    if press == "1": # if the user types 1
+        print("This is a loop") # The program will print this is a loop and loop again 
+    elif press == "2": # If the user types 2 then break or exit the loop
+        break # This breaks the loop
+    else: # if the user types anything else other than 1 or 2 it will say Incorrect option selected and loop again until the until the user presses 2 to exit
+        print("Incorrect option selected")
+        
+"""
+--------------
+    EXAMPLE 4
+--------------
 """
