@@ -1,13 +1,11 @@
-print("Lets learn Data Types with Python")
-#-------------------------------------------------
+"""
 # Data Types with Python
 #-------------------------------------------------
-
 # Data types in python are a way to classify data items
 # They represent the kind of value, which determines what operations can be performed on the data
 # Since everything is an object in python programming
 # Python data types are classes and variables are instances (objects) of those classes
-
+"""
 
 """
 The following are standard or built in data types in Python:
@@ -35,14 +33,11 @@ print(x) # This will print the most recent data type which is the tuple
 """
 ('python', 'for', 'aws')
     
-"""
-
-# Numeric Data Types 
-
+Numeric Data Types 
 # python numbers represent data that has a numeric value
 # A numeric value can be an integer , a floating number or even a complex number
 # These values are defined as int, float and complex classes
-"""
+
 Integers: value is represented by int class. It contains positive or negative whole numbers (without fractions or decimals). 
 There is no limit to how long an integer value can be.
 
@@ -53,7 +48,6 @@ It is specified by a decimal point.
 Complex Numbers: It is represented by a complex class. 
 It is specified as (real part) + (imaginary part)j.
 For example - 2+3j
-
 
 """
 a = 5
@@ -93,10 +87,8 @@ l
 s
 
 """
-
-#---------------LIST-DATA-TYPE----------------
-
 """
+---------------LIST-DATA-TYPE----------------
 Lists are similar to arrays found in other languages. 
 They are an ordered and mutable collection of items. 
 It is very flexible as items in a list do not need to be of the same type.
@@ -125,10 +117,8 @@ print(list_val)
 ['byte', 'gb', 1, 4, 5]
 
 """
-
-
-#------------- Access List Items-----------------
 """
+#------------- Access List Items-----------------
 In order to access the list items refer to index number. 
 In Python, negative sequence indexes represent positions from end of the array. 
 Negative indexing means beginning from end
@@ -154,9 +144,8 @@ bios
 python
 """
 
-
-#--------------Tuple Data Type-------------------
 """
+--------------Tuple Data Type-------------------
 Tuple is an ordered collection of Python objects. 
 The only difference between a tuple and a list is that tuples are immutable. 
 Tuples cannot be modified after it is created.
@@ -200,12 +189,12 @@ print(tup1[-3])
 
 """
 
-#------------------Boolean Data Type-------------
-
+"""
+------------------Boolean Data Type-------------
 # Python Boolean Data type is one of the two built-in values, True or False. 
 # Boolean objects that are equal to True are truthy (true) and those equal to False are falsy (false). 
 # However non-Boolean objects can be evaluated in a Boolean context as well and determined to be true or false. It is denoted by class
-
+"""
 print(type(True))
 print(type(False))
 
@@ -215,12 +204,12 @@ print(type(False))
 <class 'bool'>
 
 """
-#----------------Truthy and Falsy Values--------
-
+"""
+----------------Truthy and Falsy Values--------
 # In Python, truthy and falsy values are values that evaluate to True or False in a Boolean context. 
 # Truthy values behave like True, while falsy values behave like False when used in conditions.
 # Will look more into this topic as I progress
-
+"""
 if 1: 
     print("1 is truthy")
 if not 0:
@@ -231,18 +220,16 @@ if not 0:
 1 is truthy
 0 is falsy
 """
-
+"""
 #--------------Set Data Type-------------------
-
 # In Python Data Types, set is an unordered collection of data types that is iterable, mutable and has no duplicate elements.
 # The order of the elements in a set is undefined though it may consist of various elements.
 
 #--------------Create a set in Python----------
-
 # Sets can be created by using the built-in set() function
 # with an iterable object or sequence by placing the sequence inside curly braces, seperated by a comma.
 # The type of elements in a set need not be the same, various mixed-up data type values can also be passed to the set.
-
+"""
 s1 = set()
 
 s1 = set("setdatatype")
@@ -271,13 +258,14 @@ for i in set1:
     
 # Output would look like: 
 """
-{'python', 'data'}
+{'python', 'data'}
+
 data True
 
 """
 
-#-----------------Dictionary type data-------------
-
+"""
+-----------------Dictionary type data-------------
 # A dictionary in Python is a collection of data values used to store data values like a map,
 # Unlike other python data types, a dictionary holds a key: value pair.
 # key value is provided in a dictionary to make it more optimized.
@@ -285,12 +273,11 @@ data True
 # whereas each key is separated by a comma
 
 #---------------Create a Dictionary in Python-------
-
 # Values in a dictionary can be of any datatype and can be duplicated,
 # Whereas keys cant be repeated and must be immutable
 # The dictionary can also be created by the built-in function dict()
 # Dictionary keys are key sensitive
-
+"""
 d = {}
 
 d = {1: "Dict", 2:"in", 3:"Python"}
@@ -301,11 +288,11 @@ print(d)
 d1 = dict({1: "python", 2: "is", 3:"great"})
 print(d1)
 
-#------------Accessing Key-value in Dictionary---
-
+"""
+------------Accessing Key-value in Dictionary---
 # In order to access items from a dictionary, refer to its key name
 # key can be used inside the squre breackets using get() method we can access dictionary elements
-
+"""
 d = {1: "bash", "name": "Python", 3: "nodejs"}
 print(d["name"])
 
