@@ -1,7 +1,8 @@
 #!/bin/bash
-#-----------------------------------------
+
 # Git auto uploader with file picker
 #-----------------------------------------
+# Created this file so that i dont manually have to git add add git commit git pull and git push
 
 # List all files in current directory (excluding .git)
 echo "Files in current directory:"
@@ -42,8 +43,6 @@ fi
 # Pull latest changes
 echo "Pulling latest changes from remote..."
 git pull origin "$branch"
-
-# Add, commit, and push
 git add "$filename"
 git commit -m "$commit_msg"
 git push origin "$branch"
