@@ -20,7 +20,7 @@ for i in "${!files[@]}"; do
 done
 
 # Ask user to pick a file
-read -p "Select the file number you want to upload: " choice
+read -r -p "Select the file number you want to upload: " choice
 
 # Validate input
 if ! [[ "$choice" =~ ^[0-9]+$ ]] || (( choice < 1 || choice > ${#files[@]} )); then
@@ -31,7 +31,7 @@ fi
 filename="${files[$((choice-1))]}"
 
 # Ask for commit message
-read -p "Enter commit message: " commit_msg
+read -r -p "Enter commit message: " commit_msg
 
 # Detect current branch automatically
 branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
