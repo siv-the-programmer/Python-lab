@@ -47,4 +47,4 @@ git add "$filename"
 git commit -m "$commit_msg"
 git push origin "$branch"
 
-echo "'$filename' successfully committed and pushed to '$branch'!"
+echo "'$filename' successfully committed and pushed to '$branch'"
