@@ -33,7 +33,8 @@ print(x) # This will print the most recent data type which is the tuple
 """
 ('python', 'for', 'aws')
     
-Numeric Data Types 
+#Numeric Data Types 
+
 # python numbers represent data that has a numeric value
 # A numeric value can be an integer , a floating number or even a complex number
 # These values are defined as int, float and complex classes
