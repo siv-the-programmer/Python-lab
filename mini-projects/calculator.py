@@ -1,15 +1,16 @@
 # Mini Project: Simple Calculater
 # Using Variables, Conditionals and While loop
 #------------------------------------‐‐--------‐--‐-------‐---------
+
 while True:
-     print("Simple Calculator")
+     print("Simple Calculator") # means show the word calculator 
      print("Operations: + - * / ")
      print("-------------------------------")
-     num1 = float(input("First number: " ))
+     num1 = float(input("First number: " )) #variable for the first number.
      sign = input("Enter Operation> ")
      num2 = float(input("Second number: "))
     
-     if sign == "+":
+     sign == "+":
          print(num1 + num2)
      elif sign == "-":
          print(num1 - num2)
