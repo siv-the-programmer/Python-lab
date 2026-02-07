@@ -299,6 +299,9 @@ print(d["name"])
 
 print(d.get(3))
 
+"""
+item.name    → "conditionals.py"
+item.stem    → "conditionals"
+item.suffix  → ".py"
 
-
-
+"""
