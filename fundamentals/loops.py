@@ -83,9 +83,151 @@ while True: # This wraps the code in a loop
         break # This breaks the loop
     else: # if the user types anything else other than 1 or 2 it will say Incorrect option selected and loop again until the until the user presses 2 to exit
         print("Incorrect option selected")
+
         
+------------------------
+    FOR LOOP EXAMPLE 1
+------------------------
+"""
+# A for loop with range()
+# range(10) generates numbers from 0 up to (but not including) 10
+for counter in range(10):
+    print(counter)
+
+"""
+Output example:
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+"""
+
 """
 --------------
-    EXAMPLE 4
+    EXAMPLE 2
 --------------
+"""
+# A for loop iterating over a list
+numbers = [1, 2, 3, 4, 5]
+
+for item in numbers:
+    print(item)
+
+"""
+Output example:
+
+1
+2
+3
+4
+5
+"""
+
+"""
+---------------
+    EXAMPLE 3
+---------------
+"""
+# A for loop iterating over a string
+word = "python"
+
+for letter in word:
+    print(letter)
+
+"""
+Output example:
+
+p
+y
+t
+h
+o
+n
+"""
+
+"""
+---------------
+    EXAMPLE 4
+---------------
+"""
+# Using range() with a start and stop value
+# range(start, stop)
+for num in range(5, 10):
+    print(num)
+
+"""
+Output example:
+
+5
+6
+7
+8
+9
+"""
+
+"""
+---------------
+    EXAMPLE 5
+---------------
+"""
+# Using range() with a step value
+# range(start, stop, step)
+for num in range(0, 10, 2):
+    print(num)
+
+"""
+Output example:
+
+0
+2
+4
+6
+8
+"""
+
+"""
+---------------
+    EXAMPLE 6
+---------------
+"""
+# Using break inside a for loop
+for num in range(1, 10):
+    if num == 5:
+        break
+    print(num)
+
+"""
+Output example:
+
+1
+2
+3
+4
+"""
+
+"""
+---------------
+    EXAMPLE 7
+---------------
+"""
+# Using continue inside a for loop
+for num in range(1, 6):
+    if num == 3:
+        continue
+    print(num)
+
+"""
+Output example:
+
+1
+2
+4
+5
 """
